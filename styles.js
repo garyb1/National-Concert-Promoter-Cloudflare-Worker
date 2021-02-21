@@ -25,12 +25,11 @@ h2 {
 	font-size: 1.3rem;
 }
 
-h1, h2 {
+h1, span {
 	text-transform: capitalize;
 }
 
 span {
-	text-transform: uppercase;
 	font-weight: bold;
 }
 

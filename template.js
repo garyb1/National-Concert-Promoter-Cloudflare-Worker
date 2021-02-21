@@ -40,7 +40,7 @@ const template = (cf) => {
         <body>
             <main role="main" class="flow">
                 <h1>Concert location finder</h1>
-                <h2>${nearbyLocations.length} upcoming events close to <span> ${cf.country} <span></h2>
+                <h2>${nearbyLocations.length || 0} upcoming events close to <span> ${country} <span></h2>
                 <ul class="locations" role="list">${locationsHTML}</ul>
                 <p>This page was part of an egghead.io project brief. My task was to create and deploy a Cloudflare Worker that will examine the request for location data, and render HTML featuring information for the closest concert taking place based on the nearest regional Cloudflare Location.</p>
             </main>
