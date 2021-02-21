@@ -1,0 +1,6 @@
+name = "concert-promoter-worker"
+type = "webpack"
+account_id = "daac2f3a2cf55d44b39ac6e21af474ef"
+workers_dev = true
+route = ""
+zone_id = ""
